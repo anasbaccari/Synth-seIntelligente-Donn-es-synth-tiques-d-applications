@@ -10,14 +10,3 @@ Le projet comprend trois étapes principales :
 
 ---
 
-### Prétraitement des données
-Le jeu de données est préparé à l’aide de `pandas` et `scikit-learn` afin d’être compatible avec le modèle GAN.  
-![Data preprocessing](screenshots/preprocessing.png)
-
-### Entraînement du GAN
-Le modèle est entraîné sur plusieurs itérations pour apprendre la distribution des données réelles.  
-![GAN training logs](screenshots/training.png)
-
-### Données synthétiques générées
-Une fois l’entraînement terminé, le générateur produit de nouvelles données simulant un comportement d’utilisation réaliste.  
-![Synthetic data](screenshots/synthetic_data.png)
